@@ -1,0 +1,43 @@
+[arenas]
+[arenas.default]
+world = 'world'
+min_players = 2
+max_players = 8
+lobby_spawn = [0.0, 100.0, 0.0]
+
+[arenas.default.teams]
+[arenas.default.teams.blue]
+spawn = [-50.0, 100.0, 0.0]
+egg = [-45, 101, 0]
+generator = [-48.0, 100.0, 0.0]
+
+[arenas.default.teams.green]
+spawn = [0.0, 100.0, 50.0]
+egg = [0, 101, 45]
+generator = [0.0, 100.0, 48.0]
+
+[arenas.default.teams.red]
+spawn = [50.0, 100.0, 0.0]
+egg = [45, 101, 0]
+generator = [48.0, 100.0, 0.0]
+
+[arenas.default.teams.yellow]
+spawn = [0.0, 100.0, -50.0]
+egg = [0, 101, -45]
+generator = [0.0, 100.0, -48.0]
+
+[shop]
+[shop.items]
+[shop.items.blocks]
+name = 'Blocks (16x)'
+price = 5
+currency = 'iron'
+item = 'minecraft:wool'
+amount = 16
+
+[shop.items.sword_wood]
+name = 'Wooden Sword'
+price = 10
+currency = 'iron'
+item = 'minecraft:wooden_sword'
+amount = 1
